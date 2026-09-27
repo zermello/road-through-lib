@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot>
+  <name>Rover-01</name>
+  <status>active</status>
+  <sensors>
+    <sensor>
+      <timestamp>2026-09-27T10:00:00</timestamp>
+      <type>temperature</type>
+      <value>24.5</value>
+      <unit>C</unit>
+    </sensor>
+    <sensor>
+      <timestamp>2026-09-27T10:01:00</timestamp>
+      <type>temperature</type>
+      <value>24.7</value>
+      <unit>C</unit>
+    </sensor>
+    <sensor>
+      <timestamp>2026-09-27T10:02:00</timestamp>
+      <type>temperature</type>
+      <value>24.9</value>
+      <unit>C</unit>
+    </sensor>
+  </sensors>
+</robot>

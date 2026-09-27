@@ -1,0 +1,27 @@
+{
+  "robot": {
+    "name": "Rover-01",
+    "status": "active",
+    "battery_percent": 87,
+    "sensors": [
+      {
+        "timestamp": "2026-09-27T10:00:00",
+        "type": "temperature",
+        "value": 24.5,
+        "unit": "C"
+      },
+      {
+        "timestamp": "2026-09-27T10:01:00",
+        "type": "temperature",
+        "value": 24.7,
+        "unit": "C"
+      },
+      {
+        "timestamp": "2026-09-27T10:02:00",
+        "type": "temperature",
+        "value": 24.9,
+        "unit": "C"
+      }
+    ]
+  }
+}
