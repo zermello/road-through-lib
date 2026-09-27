@@ -10,4 +10,4 @@ wheels/
 .venv
 
 #macos
-*.DS_store
+.DS_store
