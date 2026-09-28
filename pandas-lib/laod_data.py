@@ -28,4 +28,4 @@ print(df)
 data = pd.read_json("samples/sample.json")
 
 df = pd.DataFrame(data)
-print(df)
+print(df["robot"][["name", "status"]])
