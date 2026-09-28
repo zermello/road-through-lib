@@ -9,7 +9,8 @@ data = pd.read_csv("employees_100.csv")
 
 df = pd.DataFrame(data)
 
-df = df[(df["department"] == "Finance") | (df["department"] == "Marketing") & (df["age"] > 10) &(df["experience"] > 5)]
-print(df)
+page = df[(df["department"] == "Finance") | (df["department"] == "Marketing") & (df["age"] > 10) &(df["experience"] > 5)]
+print(page)
 
-df = df[df["department"].isin(["Engineering", "Data Science"])]
+page2 = df[df["department"].isin(["Engineering", "Data Science"])]
+print(page2)
