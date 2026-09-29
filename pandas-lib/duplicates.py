@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 data = pd.read_csv("employees_100.csv")
 df = pd.DataFrame(data)
 
@@ -8,12 +7,11 @@ df = pd.DataFrame(data)
 df.duplicated(subset=["employee_id"]).sum()
 
 # dropping duplicate
-df3  = df.drop_duplicates(subset=["employee_id"])
+df3  = df.drop_duplicates(subset=["employee_id"], keep="first")
 df3.duplicated(subset=["employee_id"]).sum()
 
 # to have normal indexing and remove setted index
-
 df.set_index("employee_id")
 df.reset_index()
 
-# balance portion
+df["joining_date"] = pd.to_datetime(df["joining_date"])
